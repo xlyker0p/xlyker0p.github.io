@@ -7,7 +7,34 @@
   <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="style.css">
 </head>
 <body>
-  <div id="tu">For now. <br> xlyker0p[at]pm.me</div>
-  <script src="main.js" type="text/javascript"></script>
+  <div class="tu">For now.</div><br>
+
+
+  <script type="text/javascript" language="javascript">
+  <!--
+  // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+  // Random encryption key feature coded by Andrew Moulden
+  // This code is freeware provided these four comment lines remain intact
+  // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+  { coded = "FYgGA3rE@EK.KA"
+    key = "6Y1eNHOC0kSf7VZupAboxWrGBPcwtIEimRFU3znLJDyd54KqMlvsahT8g9X2Qj"
+    shift=coded.length
+    link=""
+    for (i=0; i<coded.length; i++) {
+      if (key.indexOf(coded.charAt(i))==-1) {
+        ltr = coded.charAt(i)
+        link += (ltr)
+      }
+      else {
+        ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+        link += (key.charAt(ltr))
+      }
+    }
+  document.write("a href='mailto:"+link+"'>If you need: ping me.</a>")
+  }
+  //-->
+  </script><noscript>Sorry, 0trust. You need Javascript on.</noscript>
+
+
 </body>
 </html>
