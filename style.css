@@ -11,6 +11,7 @@ a{
   color: #00ff00;
 }
 
-/*noscript{
-  color: #00ff00;
-}*/ 
+*noscript{
+  color: #000000;
+  background-color: #ffffff;
+}
