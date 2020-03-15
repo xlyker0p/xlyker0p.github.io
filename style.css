@@ -1,0 +1,87 @@
+body {
+  background: white;
+  transition: background .5s;
+}
+
+
+
+/*---intro----*/
+.intro {
+  color: #00ff00;
+  font-family: 'Source Code Pro';
+  text-align: center;
+}
+/*---intro----*/
+
+a{
+  text-decoration: none;
+  color: #00ff00;
+}
+
+
+noscript{
+  color: #000000;
+  background-color: #ffffff;
+  font-family: 'Source Code Pro';
+  text-align: left;
+}
+
+
+
+/*foot*/
+.foot{
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0;
+padding: 1.5rem;
+text-align: center;
+font-size: 1rem;
+}
+/*foot*/
+
+
+/*copyright*/
+.copyright{
+  background-color: inherit;
+  border: none;
+  font-family: 'Source Code Pro';
+  font-size: 0.8rem;
+  margin-left: 0rem;
+}
+/*copyright*/
+
+
+
+/*pingpongbutton*/
+.pingpongbutton {
+  background-color: inherit;
+  color: #00ff00;
+  cursor: pointer;
+  border: none;
+  font-family: 'Source Code Pro';
+  font-size: 0.7rem;
+}
+/*pingpongbutton*/
+
+
+/*twitter*/
+.twitter {
+  font-size: 0.7rem;
+  color: #00ff00;
+  font-family: 'Source Code Pro';
+}
+/*twitter*/
+
+
+/*disclaimer*/
+.disclaimer {
+  font-size: 0.7rem;
+  color: orange;
+  font-family: 'Source Code Pro';
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  color: #00ff00;
+}
+/*disclaimer*/
