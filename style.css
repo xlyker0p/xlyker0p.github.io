@@ -4,6 +4,7 @@ body {
 }
 
 
+
 /*---intro----*/
 .intro {
   color: #00ff00;
@@ -17,17 +18,14 @@ a{
   color: #00ff00;
 }
 
-*noscript{
+
+noscript{
   color: #000000;
   background-color: #ffffff;
+  font-family: 'Source Code Pro';
+  text-align: left;
 }
 
-*noscript #popup{
-  display: none;
-  font-family: 'Source Code Pro';
-  color: #00ff00;
-  border: none;
-}
 
 
 /*foot*/
